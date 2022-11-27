@@ -1,0 +1,10 @@
+{
+  "installCommand": "pnpm install",
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "packages/site/dist",
+  "regions": ["hkg1"],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
+  ]
+}

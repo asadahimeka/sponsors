@@ -1,0 +1,207 @@
+design:
+  # - name: hexo-theme-yun
+  #   desc: 我的博客主题，也就是 yunyoujun.cn 你所看到的样式和各类功能，它本质是被抽象可复用的。
+  #   color: '#0078E7'
+  #   github: YunYouJun/hexo-theme-yun
+  #   emoji: ☁️
+  #   url: https://www.yunyoujun.cn
+  #   docs: https://yun.yunyoujun.cn
+
+applets:
+  - name: yandere-masonry
+    emoji: 🎨
+    desc: Yande.re/Konachan 中文标签 & 缩略图放大 & 双击翻页 & 瀑布流浏览
+    color: '#E03C8A'
+    textColor: white
+    github: asadahimeka/yandere-masonry
+    url: https://greasyfork.org/scripts/444885
+  - name: pixiv-viewer
+    desc: 又一个Pixiv阅览工具（适配 PC 端）
+    emoji: 📝
+    color: '#2EA9DF'
+    textColor: white
+    github: asadahimeka/pixiv-viewer
+    url: https://pixiv.kanata.ml/
+    # docs: https://www.yunyoujun.cn/posts/why-make-char-dust/
+  - name: booruwf-web
+    desc: Booru 站点瀑布流浏览 Web 版
+    emoji: 🧭
+    color: '#66327C'
+    github: asadahimeka/booruwf-web
+    url: https://booru.kanata.ml/
+  - name: booru-search
+    desc: Booru 站点图片搜索 API 封装
+    emoji: 💬
+    color: '#8B81C3'
+    textColor: white
+    github: asadahimeka/booru-search
+    docs: https://cocomi.cf/booru-search
+    url: https://github.com/asadahimeka/booru-search/blob/master/readme.zh-cn.md
+  - name: booru-search-api
+    desc: API Service to search boorus using @himeka/booru
+    emoji: 🎂
+    color: '#7BA23F'
+    textColor: white
+    github: asadahimeka/booru-search-api
+    url: https://brkw.kanata.ml/
+  - name: vite-plugin-tm-userscript
+    desc: 基于 vite 的 Tampermonkey 用户脚本开发构建插件。
+    emoji: 🎮
+    color: '#B5495B'
+    # textColor: white
+    github: asadahimeka/vite-plugin-tm-userscript
+    url: https://www.nanoka.top/posts/3a8bdf22
+  - name: userscripts
+    desc: 个人常用的一些用户脚本。
+    emoji: 🪐
+    color: '#FEDFE1'
+    github: asadahimeka/userscripts
+    url: https://greasyfork.org/users/913503
+  - name: mys_stickers
+    desc: 米游社表情包提取
+    emoji: 👻
+    color: '#F19483'
+    github: asadahimeka/mys_stickers
+    url: https://www.npmjs.com/package/@himeka/mys_stickers
+
+tools:
+  # - name: mirai-ts
+  #   emoji: 🔧
+  #   color: '#2b7489'
+  #   desc: Mirai（QQ 机器人）TypeScript SDK，简单来说 mirai-ts 是零件包，可以用来自由地搭建你想要的机器人。
+  #   github: YunYouJun/mirai-ts
+  #   docs: https://yunyoujun.cn/mirai-ts/
+  # - name: el-bot
+  #   emoji: 🤖️
+  #   desc: 使用 mirai-ts 构建的 Node 端机器人框架，可以自定义插件，封装了更多内容。el-bot 则是自行车，可以加装各类插件装饰。
+  #   color: steelblue
+  #   github: YunYouJun/el-bot
+  #   docs: https://docs.bot.elpsy.cn
+  # - name: cocos-creator-joystick
+  #   emoji: 🕹
+  #   desc: 基于 Cocos Creator 的虚拟摇杆实现，咱较早期开源作品。
+  #   github: YunYouJun/cocos-creator-joystick
+  #   url: https://yunyoujun.github.io/cocos-creator-joystick/
+  # - name: web-resume
+  #   desc: 可在线编辑的 Web 简历，斩获 BAT Offer 未尝败绩！
+  #   emoji: 📄
+  #   color: '#222'
+  #   github: YunYouJun/web-resume
+  #   url: https://resume.elpsy.cn
+  # - name: nnrm
+  #   desc: 最小依赖的 NPM 源管理器，譬如切换 NPM 淘宝镜像等。
+  #   emoji: 🔧
+  #   color: '#f1e05a'
+  #   github: YunYouJun/nnrm
+  #   url: https://www.npmjs.com/package/nnrm
+  #   docs: https://www.yunyoujun.cn/posts/nnrm-new-nrm/
+  # - name: baidu-image-spider
+  #   desc: 百度图片爬虫小工具 By Node.js.
+  #   emoji: 🕷️
+  #   color: '#e41c13'
+  # - name: export-nideriji
+  #   emoji: 📒
+  #   desc: 导出《你的日记》JSON 格式
+  #   color: '#92a3b4'
+  #   github: YunYouJun/export-nideriji
+  #   url: https://fan.elpsy.cn
+  # - name: valine-to-disqus
+  #   emoji: ⏩
+  #   desc: 将 Valine 评论数据转换为 Disqus 可导入的格式。
+  #   color: blue
+  #   docs: https://www.yunyoujun.cn/posts/migrate-from-valine-to-disqus/
+
+interesting:
+  # - name: air-conditioner
+  #   emoji: ❄️
+  #   color: '#4ea5f5'
+  #   desc: 云空调，便携小空调！其实是个冷笑话，随身携带的毫无制冷效果的仿真小空调，使用纯 CSS 编写节能。
+  #   textColor: white
+  #   github: YunYouJun/air-conditioner
+  #   url: https://ac.yunyoujun.cn
+  #   docs: https://www.yunyoujun.cn/air-conditioner-room/
+  # - name: give-me-money
+  #   emoji: 🎣
+  #   desc: 我很可爱，请给我钱！直白的绅士钓鱼网站！
+  #   color: '#8a91d0'
+  #   textColor: white
+  #   github: YunYouJun/give-me-money
+  #   url: https://gmm.yunyoujun.cn
+  # - name: electric-fan
+  #   emoji: ♻️
+  #   desc: 电风扇，便携夏日小风扇！纯 CSS 编写，小空调的前辈。
+  #   color: '#20c077'
+  #   textColor: white
+  #   github: ElpsyCN/electric-fan
+  #   url: https://fan.elpsy.cn
+  # - name: fc
+  #   emoji: 🎮
+  #   desc: 基于 JSNES 与 Vue 实现的红白机 FC
+  #   color: red
+  #   textColor: white
+  #   github: ElpsyCN/fc
+  #   url: https://fc.elpsy.cn
+
+plugins:
+  # - name: hexo-widget-tree
+  #   emoji: 🌲
+  #   desc: Hexo 文章树状菜单预览插件
+  #   color: green
+  #   github: YunYouJun/hexo-widget-tree
+  #   url: https://www.yunyoujun.cn/yun/widget-tree.html
+  # - name: hexo-tag-common
+  #   emoji: 🏷️
+  #   desc: Hexo 通用标签实现
+  #   color: '#f8d0a0'
+  #   github: YunYouJun/hexo-tag-common
+  #   url: https://www.yunyoujun.cn/yun/tag-common.html
+  # - name: wc-github-corners
+  #   emoji: ℹ︎
+  #   desc: 可以在任意地方（框架）使用的 GitHub Corner 挂件（基于 Web Components 实现）
+  #   color: black
+  #   url: https://www.yunyoujun.cn/wc-github-corners/
+  # - name: vuepress-plugin-google-adsense
+  #   emoji: 🪧
+  #   desc: Vuepress v1 谷歌广告插件
+  #   color: '#1565c0'
+
+lab:
+  # - name: webgl-radiosity
+  #   emoji: 💡
+  #   desc: WebGL 辐射度渲染实现
+  #   color: '#face87'
+  #   github: YunYouJun/webgl-radiosity
+  #   url: https://yunyoujun.cn/webgl-radiosity/
+  # - name: gaussian-blur
+  #   emoji: ✍️
+  #   desc: 手写一个高斯模糊
+  #   color: '#2b7489'
+  #   url: https://yunyoujun.github.io/gaussian-blur/
+  #   docs: https://yunyoujun.github.io/gaussian-blur/
+
+open_source:
+  # - name: element-plus
+  #   emoji: ➕
+  #   desc: Element Vue 3 官方版本，应该算是 Vue 最流行的组件库之一，目前咱是团队核心成员，主要负责样式系统以及其他各类 BUG 修复，以及周边项目模板示例的开发。
+  #   github: element-plus/element-plus
+  #   docs: https://element-plus.org/
+  #   color: '#409eff'
+  #   textColor: white
+  # - name: 其他开源项目
+  #   emoji: 🏠
+  #   desc: 当然目前我也为其他社区开源项目贡献过代码，也许你还可以在 omi、vitepress、vitesse 等 50 个项目中看到我的身影。
+  #   github: YunYouJun
+  #   color: black
+
+other:
+  # - name: yun
+  #   emoji: ☁️
+  #   desc: 小云设定资源大公开
+  - name: nanoka.top
+    emoji: 📖
+    desc: 我的博客
+    github: asadahimeka/asadahimeka.github.io/tree/hexo
+    url: https://www.nanoka.top
+  - name: asadahimeka
+    emoji: ☁️
+    desc: Waiting...

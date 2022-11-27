@@ -1,0 +1,24 @@
+button:
+  about: 关于
+  projects: 项目
+  back: 返回
+  go: 确定
+  home: 首页
+  toggle_dark: 切换深色模式
+  toggle_langs: 切换语言
+
+not-found: 未找到页面
+tooltip: 如果能留下你的称呼和备注/链接就再好不过了，我将会把您添加至赞助者列表中。
+acknowledgement: 感谢支持！愿这个世界更美好
+
+message:
+  projects: 要看看我别的项目吗？
+
+title:
+  account: 账簿
+  projects: 个人项目
+
+tab:
+  sponsor_list: 经济赞助
+  other_sponsors: 其他赞助
+  expense: 当前支出
