@@ -1,7 +1,7 @@
 export enum MoneyMethod {
-  // WECHAT_PAY = '微信支付',
+  WECHAT_PAY = '微信支付',
   WECHAT_REWARD = '微信赞赏',
-  // ALI_PAY = '支付宝',
+  ALI_PAY = '支付宝',
   QQ_PAY = 'QQ 钱包',
 }
 

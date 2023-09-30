@@ -16,26 +16,26 @@ applets:
     github: asadahimeka/yandere-masonry
     url: https://greasyfork.org/scripts/444885
   - name: pixiv-viewer
-    desc: 又一个Pixiv阅览工具（适配 PC 端）
+    desc: 又一个Pixiv阅览工具（多端适配、PWA）
     emoji: 📝
     color: '#2EA9DF'
     textColor: white
     github: asadahimeka/pixiv-viewer
-    url: https://pixiv.kanata.ml/
+    url: https://pixiv.pics/
     # docs: https://www.yunyoujun.cn/posts/why-make-char-dust/
   - name: booruwf-web
     desc: Booru 站点瀑布流浏览 Web 版
     emoji: 🧭
     color: '#66327C'
     github: asadahimeka/booruwf-web
-    url: https://booru.kanata.ml/
+    url: https://booru.pixiv.pics/
   - name: booru-search
     desc: Booru 站点图片搜索 API 封装
     emoji: 💬
     color: '#8B81C3'
     textColor: white
     github: asadahimeka/booru-search
-    docs: https://cocomi.cf/booru-search
+    docs: https://cocomi.eu.org/booru-search
     url: https://github.com/asadahimeka/booru-search/blob/master/readme.zh-cn.md
   - name: booru-search-api
     desc: API Service to search boorus using @himeka/booru
@@ -43,7 +43,7 @@ applets:
     color: '#7BA23F'
     textColor: white
     github: asadahimeka/booru-search-api
-    url: https://brkw.kanata.ml/
+    url: https://booru-search-api.pixiv.pics/api/search?site=yande.re&tags=blue_archive&page=1&limit=1
   - name: vite-plugin-tm-userscript
     desc: 基于 vite 的 Tampermonkey 用户脚本开发构建插件。
     emoji: 🎮

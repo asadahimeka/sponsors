@@ -3,16 +3,16 @@ import type { MoneyMethod } from '@sponsors/types'
 export const anonymousImage = 'https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg'
 
 export const methodMap = {
-  // ALI_PAY: {
-  //   icon: 'i-ri-alipay-line',
-  //   color: '#00A3EE',
-  //   title: '支付宝',
-  // },
-  // WECHAT_PAY: {
-  //   icon: 'i-ri-wechat-pay-line',
-  //   color: '#2DC100',
-  //   title: '微信支付',
-  // },
+  ALI_PAY: {
+    icon: 'i-ri-alipay-line',
+    color: '#00A3EE',
+    title: '支付宝',
+  },
+  WECHAT_PAY: {
+    icon: 'i-ri-wechat-pay-line',
+    color: '#2DC100',
+    title: '微信支付',
+  },
   WECHAT_REWARD: {
     icon: 'i-ri-wechat-pay-line',
     color: '#2DC100',
@@ -25,7 +25,8 @@ export const methodMap = {
   },
 }
 
-export const methods: (keyof typeof MoneyMethod)[] = ['WECHAT_REWARD', 'QQ_PAY']
+// export const methods: (keyof typeof MoneyMethod)[] = ['WECHAT_REWARD', 'QQ_PAY', 'ALI_PAY', 'WECHAT_PAY']
+export const methods: (keyof typeof MoneyMethod)[] = ['ALI_PAY']
 
 export const config = {
   githubSponsors: {

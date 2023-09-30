@@ -42,6 +42,7 @@ const links = ref([
     id="bg_credit_white"
     href="https://www.freepik.com/free-vector/modern-soft-violet-watercolor-paint-texture-design-background_29568085.htm"
     target="_blank"
+    rel="noopener noreferrer"
     style="font-size: 12px;color: #999;"
   >
     Background by Creative_hat

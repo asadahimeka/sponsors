@@ -5,7 +5,7 @@ const { t } = useI18n()
 
 <template>
   <div class="relative flex justify-center items-center flex-col animate-iteration-1 animate-duration-1000 animate-fade-in">
-    <img class="xiao-yun-q inline-flex m-auto fade-in z-2 rounded-full" src="https://upload-bbs.mihoyo.com/upload/2022/09/07/190122060/8505ff4b535cb1487b521d73c7f71d63_865024295271530650.png" alt="">
+    <img class="w-160px inline-flex m-auto fade-in z-2 rounded-full" src="https://pic.rmb.bdstatic.com/bjh/events/454bd0e4cacb10335a917f45282c3ec35827.jpeg" alt="">
     <!-- <p class="absolute bottom-0">
       我很可爱，请给我钱！
     </p> -->
@@ -22,8 +22,4 @@ const { t } = useI18n()
 </template>
 
 <style>
-.xiao-yun-q {
-  width: 200px;
-  aspect-ratio: 1;
-}
 </style>
